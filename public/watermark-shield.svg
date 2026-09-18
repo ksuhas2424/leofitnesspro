@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="100%" height="100%">
+  <!-- Subtle light gray background shield watermark -->
+  <g fill="none" stroke="#E6E8EC" stroke-width="8" opacity="0.65">
+    <!-- Outer Shield Contour -->
+    <path d="M 250,20 L 460,110 C 460,350 350,500 250,570 C 150,500 40,350 40,110 Z"/>
+    <!-- Inner Shield Contour -->
+    <path d="M 250,45 L 435,125 C 435,335 335,475 250,540 C 165,475 65,335 65,125 Z" stroke-width="4"/>
+  </g>
+  <!-- Muscular Figure Outline inside watermark -->
+  <g fill="none" stroke="#E6E8EC" stroke-width="6" opacity="0.55" transform="translate(250, 230)">
+    <circle cx="0" cy="-80" r="22"/>
+    <!-- Shoulders -->
+    <path d="M -70,-30 C -40,-60 40,-60 70,-30 L 95,-10 C 60,30 -60,30 -95,-10 Z"/>
+    <!-- Torso -->
+    <path d="M -50,-10 L -35,90 L 0,120 L 35,90 L 50,-10 Z"/>
+    <!-- Arms with Dumbbell -->
+    <path d="M -85,-15 L -115,-45 L -100,-75"/>
+    <path d="M 85,-15 L 115,-45 L 100,-75"/>
+  </g>
+  <!-- Text inside watermark -->
+  <text x="250" y="380" text-anchor="middle" font-family="'Oswald', sans-serif" font-weight="900" font-size="52" fill="#E2E4E8" opacity="0.55" letter-spacing="6">LEO FITNESS</text>
+  <text x="250" y="425" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="800" font-size="28" fill="#E2E4E8" opacity="0.5" letter-spacing="10">PRO</text>
+</svg>
