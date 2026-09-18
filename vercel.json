@@ -1,7 +1,7 @@
 {
   "framework": "vite",
   "installCommand": "npm install --include=optional",
-  "buildCommand": "npm run build",
+  "buildCommand": "npx vite build",
   "outputDirectory": "dist",
   "rewrites": [
     {
